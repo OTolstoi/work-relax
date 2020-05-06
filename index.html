@@ -4,10 +4,11 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
    <script src="https://kit.fontawesome.com/aa527eeef3.js" crossorigin="anonymous"></script>
 
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      crossorigin="anonymous">
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css">
 
@@ -15,7 +16,9 @@
 </head>
 
 <body>
-   <div class="wraper">
+
+   <div class="wrapper">
+
       <!-- header -->
       <div class="header">
          <div class="container">
@@ -34,18 +37,22 @@
                         <li><a class="contact__link" href="#"><i class="fab fa-instagram"></i></a></li>
                      </ul>
                   </div>
-                  <div class="contact__email"><a href="malito:#">work&relax2020@gmail.com</a></div>
+                  <div class="contact__email"><a href="malito:#">work-relax@gmail.com</a></div>
                   <div class="contact__phone"><a href="tel:#">096 096 96 96</a></div>
                </div>
             </div>
          </div>
       </div>
+
       <!-- navbar -->
       <div class="navbar">
          <nav class="navbar__wrapper">
             <div class="container">
                <div class="navbar__body">
-                  <div class="navbar__burger"></div>
+                  <div class="navbar__btn">
+                     <div class="navbar__burger"><span></span></div>
+                     <div class="navbar__btn-text">меню</div>
+                  </div>
                   <div class="navbar__menu">
                      <ul class='navbar__list'>
                         <li><a href="#" class="navbar__link">Вакансії</a></li>
@@ -59,9 +66,12 @@
             </div>
          </nav>
       </div>
+
       <!-- main -->
       <div class="main">
+
          <!-- carousel -->
+
          <div class="carousel">
             <div id="myCarousel" class="carousel slide">
 
@@ -75,15 +85,34 @@
 
                <!-- The slideshow -->
                <div class="carousel-inner">
+
+                  <!-- image-1 -->
                   <div class="carousel-item active">
-                     <img src="img/img1.jpg" alt="">
+                     <img src="img/beach-daylight-geology-greece-221433.jpg" class='img1__carousel'>
+                     <div class="img1__inner">
+                        <h3>Комфортний туризм</h3>
+                        <ul class="img1__list">
+                           <li>Розумні ціни</li>
+                           <li>Цікаві подорожі</li>
+                           <li>Будь-які напрямки</li>
+                           <li>Оптимальні рішення</li>
+                           <li>Підбір туру під особисті побажання наших клієнтів</li>
+                        </ul>
+                        <p>Довірьте нам свій відпочинок</p>
+                     </div>
                   </div>
+
+                  <!-- image-2 -->
                   <div class="carousel-item">
                      <img src="img/img2.jpg" alt="">
                   </div>
+
+                  <!-- image-3 -->
                   <div class="carousel-item">
                      <img src="img/img3.jpg" alt="">
                   </div>
+
+                  <!-- image-4 -->
                   <div class="carousel-item">
                      <img src="img/img4.jpg" alt="">
                   </div>
@@ -98,7 +127,9 @@
                </a>
             </div>
          </div>
+
          <!-- about -->
+
          <div class="about" data-aos="fade-up">
             <div class="container">
                <div class="about__body">
@@ -109,37 +140,37 @@
                      </h2>
                   </div>
                   <div class="about__column">
-                     <div class="column__body">
+                     <div class="about__column--body">
 
-                        <div class="column__item1">
-                           <div class="column__img">
-                              <img src="img/workers-64.png" alt="#">
+                        <div class="about__column--item1">
+                           <div class="about__column-img">
+                              <img src="./img/professions-and-jobs.svg" alt="#">
                            </div>
-                           <div class="column__text">
+                           <div class="about__column-text">
                               <h3>Широкий вибір вакансій</h3>
                            </div>
                         </div>
-                        <div class="column__item2">
-                           <div class="column__img">
-                              <img src="img/time-64.png" alt="#">
+                        <div class="about__column--item2">
+                           <div class="about__column-img">
+                              <img src="./img/holidays.svg" alt="#">
                            </div>
-                           <div class="column__text">
-                              <h3>Вирішення завдань у стислі терміни</h3>
+                           <div class="about__column-text">
+                              <h3>Комфортний туризм</h3>
                            </div>
                         </div>
-                        <div class="column__item3">
-                           <div class="column__img">
-                              <img src="img/moderator-64.png" alt="#">
+                        <div class="about__column--item3">
+                           <div class="about__column-img">
+                              <img src="img/recruitment.svg" alt="#">
                            </div>
-                           <div class="column__text">
+                           <div class="about__column-text">
                               <h3>Індивідуальний підхід до кожного клієнта</h3>
                            </div>
                         </div>
-                        <div class="column__item4">
-                           <div class="column__img">
-                              <img src="img/briefcase-4-64.png" alt="">
+                        <div class="about__column--item4">
+                           <div class="about__column-img">
+                              <img src="img/profile.svg" alt="#">
                            </div>
-                           <div class="column__text">
+                           <div class="about__column-text">
                               <h3>Підготовка повного пакету документів</h3>
                            </div>
                         </div>
@@ -150,7 +181,9 @@
                </div>
             </div>
          </div>
+
          <!-- principles 6 column -->
+
          <div class="principles" data-aos="fade-up">
             <div class="container">
                <div class="principles__body">
@@ -158,53 +191,65 @@
                      <h2>Принципи нашої роботи:</h2>
                   </div>
                   <div class="principles__column">
-                     <div class="pr-column__body">
-                        <div class="pr-column__item1">
-                           <div class="pr-column__img">
-                              <img src="img/calendar-64.png" alt="">
-                           </div>
-                           <div class="pr-column__text">
-                              <h3>Найкращі дати</h3>
-                           </div>
-                        </div>
-                        <div class="pr-column__item2">
-                           <div class="pr-column__img">
-                              <img src="img/businessman-64.png" alt="">
-                           </div>
-                           <div class="pr-column__text">
-                              <h3>Компетентність</h3>
+                     <div class="principles__column--body">
+                        <div class="principles__column--item1">
+                           <div class="principles__column--item1-inner">
+                              <div class="principles__column-img">
+                                 <img src="img/interface.svg" alt="">
+                              </div>
+                              <div class="principles__column-text">
+                                 <h3>Стислі терміни</h3>
+                              </div>
                            </div>
                         </div>
-                        <div class="pr-column__item3">
-                           <div class="pr-column__img">
-                              <img src="img/conference-call-64.png" alt="">
-                           </div>
-                           <div class="pr-column__text">
-                              <h3>Індивідуальний підхід</h3>
-                           </div>
-                        </div>
-                        <div class="pr-column__item4">
-                           <div class="pr-column__img">
-                              <img src="img/thumbs-up-64.png" alt="">
-                           </div>
-                           <div class="pr-column__text">
-                              <h3>Надійність</h3>
+                        <div class="principles__column--item2">
+                           <div class="principles__column--item2-inner">
+                              <div class="principles__column-img">
+                                 <img src="img/business-and-finance.svg" alt="">
+                              </div>
+                              <div class="principles__column-text">
+                                 <h3>Компетентність</h3>
+                              </div>
                            </div>
                         </div>
-                        <div class="pr-column__item5">
-                           <div class="pr-column__img">
-                              <img src="img/analytics-64.png" alt="">
-                           </div>
-                           <div class="pr-column__text">
-                              <h3>Аналіз ринку</h3>
+                        <div class="principles__column--item3">
+                           <div class="principles__column--item3-inner">
+                              <div class="principles__column-img">
+                                 <img src="img/people.svg" alt="#">
+                              </div>
+                              <div class="principles__column-text">
+                                 <h3>Індивідуальний підхід</h3>
+                              </div>
                            </div>
                         </div>
-                        <div class="pr-column__item6">
-                           <div class="pr-column__img">
-                              <img src="img/page-quality-64.png" alt="">
+                        <div class="principles__column--item4">
+                           <div class="principles__column--item4-inner">
+                              <div class="principles__column-img">
+                                 <img src="img/security.svg" alt="">
+                              </div>
+                              <div class="principles__column-text">
+                                 <h3>Надійність</h3>
+                              </div>
                            </div>
-                           <div class="pr-column__text">
-                              <h3>Якість послуг</h3>
+                        </div>
+                        <div class="principles__column--item5">
+                           <div class="principles__column--item5-inner">
+                              <div class="principles__column-img">
+                                 <img src="img/computing.svg" alt="">
+                              </div>
+                              <div class="principles__column-text">
+                                 <h3>Аналіз ринку</h3>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="principles__column--item6">
+                           <div class="principles__column--item6-inner">
+                              <div class="principles__column-img">
+                                 <img src="img/seo-and-web.svg" alt="">
+                              </div>
+                              <div class="principles__column-text">
+                                 <h3>Якість послуг</h3>
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -213,7 +258,9 @@
                </div>
             </div>
          </div>
-         <!-- actual news -->
+
+         <!-- news -->
+
          <div class="news" data-aos="fade-in">
             <div class="container">
                <div class="news__body">
@@ -221,7 +268,7 @@
                      <h2>Актуальні вакансії та новини:</h2>
                   </div>
                   <div class="news__column">
-                     <div class="news-column__item1">
+                     <div class="news__column--item1">
                         <div class="card1" data-aos-anchor=".news" data-aos="fade-up" data-aos-delay="400">
                            <div class="front">
                               <img src="img/santehnik.jpg" alt="#">
@@ -252,7 +299,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="news-column__item2">
+                     <div class="news__column--item2">
                         <div class="card2" data-aos-anchor=".card1" data-aos="fade-up" data-aos-delay="800">
                            <div class="front">
                               <span>Front</span>
@@ -262,7 +309,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="news-column__item3">
+                     <div class="news__column--item3">
                         <div class="card3" data-aos-anchor=".card2" data-aos="fade-up" data-aos-delay="1200">
                            <div class="front">
                               <span>Front</span>
@@ -272,10 +319,11 @@
                            </div>
                         </div>
                      </div>
-                     <div class="news-column__item4">
+
+                     <div class="news__column--item4">
                         <div class="card4" data-aos="fade-up">
                            <div class="front">
-
+                              <span>Front</span>
                            </div>
                            <div class="back">
                               <div class="back__inner">
@@ -284,7 +332,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="news-column__item5">
+                     <div class="news__column--item5">
                         <div class="card5" data-aos-anchor=".card4" data-aos="fade-up" data-aos-delay="800">
                            <div class="front">
                               <span>Front</span>
@@ -296,7 +344,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="news-column__item6">
+                     <div class="news__column--item6">
                         <div class="card6" data-aos-anchor=".card5" data-aos="fade-up" data-aos-delay="1200">
                            <div class="front">
                               <span>Front</span>
@@ -310,21 +358,24 @@
                      </div>
                   </div>
 
-
                </div>
             </div>
          </div>
+
          <!-- appeal -->
+
          <div class="appeal" data-aos="fade-up">
-            <img src="img/img_before_footer.jpg" alt="#">
+            <img class='appeal__img' src="img/img_before_footer.jpg" alt="#">
             <div class="container">
                <div class="appeal__body">
                   <div class="appeal__text">
-                     <p>
-                        Звертайтесь
-                        <br> до нас за
-                        <br> консультацією
-                     </p>
+                     <div class="appeal__text-text">
+                        <p>
+                           Звертайтесь
+                           <br> до нас за
+                           <br> консультацією
+                        </p>
+                     </div>
                   </div>
                   <div class="appeal__feedback">
                      <div class="feedback__body">
@@ -332,17 +383,17 @@
                            action="#" method="GET">
                            <h4>Залиште заявку</h4>
                            <h5>та отримайте безкоштовну консультацію</h5>
-                           <div class="form__input_1">
+                           <div class="feedback__form--input1">
                               <input placeholder="Ваше ім'я" tabindex="1" name="username" type="text">
                            </div>
-                           <div class="form__input_2">
+                           <div class="feedback__form--input2">
                               <input placeholder="Ваш телефон" tabindex="2" name="usertel" type="tel">
                            </div>
-                           <div class="form__input_3">
+                           <div class="feedback__form--input3">
                               <input placeholder="Ваш email" tabindex="3" name="usermail" type="email">
                            </div>
                            <div>
-                              <input value="Залишити" class="form__submit" type="submit">
+                              <input value="Залишити" class="feedback__form--submit" type="submit">
                            </div>
                         </form>
                      </div>
@@ -351,41 +402,79 @@
             </div>
 
          </div>
+
+         <!-- end main -->
       </div>
+
+      <!-- footer -->
+
       <footer class="footer">
          <div class="container">
             <div class="footer__body">
+
+               <!-- footer__section1 -->
                <div class="footer__logo">
-                  <a href="#" class="logo__img">
+                  <a href="#" class="footer__logo--img">
                      <img src="img/logo.jpg" alt="#">
                   </a>
                </div>
+
+               <!-- footer__section2 -->
                <div class="footer__contact">
-                  <div class="ft-contact__phone"><a href="tel:#">096 096 96 96</a></div>
-                  <div class="ft-contact__icons">
-                     <ul class="ft-contact__list">
-                        <li><a href="#" class="ft-contact__link"><i class="fab  fa-facebook-f"></i></a></li>
-                        <li><a href="#" class="ft-contact__link"><i class="fab fa-google-plus-g"></i></a></li>
-                        <li><a href="#" class="ft-contact__link"><i class="fab fa-viber"></i></a></li>
-                        <li><a href="#" class="ft-contact__link"><i class="fab fa-instagram"></i></a></li>
+                  <div class="footer__contact--phone"><a href="tel:#">096 096 96 96</a></div>
+                  <div class="footer__contact--icons">
+                     <ul class="footer__contact--list">
+                        <li><a href="#" class="footer__contact-link"><i class="fab  fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="footer__contact-link"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#" class="footer__contact-link"><i class="fab fa-viber"></i></a></li>
+                        <li><a href="#" class="footer__contact-link"><i class="fab fa-instagram"></i></a></li>
                      </ul>
                   </div>
-
-                  <div class="ft-contact__copyright">Copyright © «Work&Relax», 2017-2020. All rights reserved.</div>
+                  <div class="footer__contact--copyright">Copyright © «Work&Relax», 2017-2020. All rights reserved.
+                  </div>
                </div>
+
+               <!-- footer__section3 -->
                <div class="footer__adress">
                   Ukraine, Vinnitsa
                   <br>
                   tram in front of "Vyshеnka"
                   <br>
-                  1-st conference room
+                  Baikonur
                </div>
             </div>
          </div>
       </footer>
 
+      <!-- end wrapper -->
    </div>
 
+
+   <!-- button tourism -->
+   <div class="btn-pulse">
+
+      <div class="btn-pulse__icon"><i class="fas fa-plane"></i></div>
+      <div class="btn-pulse__text">підібрати тур</div>
+
+   </div>
+   <!-- open button tourism -->
+   <div class="form-tourism">
+      <div class="form-tourism__title">
+         <h3>Підібрати тур</h3>
+         <p>Надішліть запит, і наші менеджери проведуть повну консультацію</p>
+      </div>
+      <form action="#" class='form-tourism__form'>
+         <div class="form-tourism__name">
+            <input type="text" placeholder=" Як Вас звати?">
+         </div>
+         <div class="form-tourism__tel">
+            <input type="tel" placeholder="0XXXXXXXX">
+         </div>
+         <div class="form-tourism__submit">
+            <input type="submit" value="ВІДПРАВИТИ">
+         </div>
+      </form>
+   </div>
 
 
 
@@ -401,6 +490,9 @@
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script src='js/main.js'></script>
    <script src="js/animations.js"></script>
+   <script src="js/btn.js"></script>
+   <script src="js/btn-menu.js"></script>
+
 </body>
 
 </html>
