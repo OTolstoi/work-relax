@@ -1161,93 +1161,94 @@ body {
    }
 }
 // open form tourism
-.form-tourism {
-   display: none;
-   position: fixed;
-   height: 260px;
-   max-height: 350px;
-   width: 260px;
-   max-width: 350px;
-   top: 40%;
-   left: 30px;
-   opacity: 0.95;
-   padding: 10px 30px 30px 30px;
-   margin: 0;
-   background-color: rgba(255, 255, 255, 0.88);
-   border-radius: 15px;
-   z-index: 3;
-}
 
-.form-tourism.btn-tourism-active {
-   display: block;
-}
+// .form-tourism {
+//    display: none;
+//    position: fixed;
+//    height: 260px;
+//    max-height: 350px;
+//    width: 260px;
+//    max-width: 350px;
+//    top: 40%;
+//    left: 30px;
+//    opacity: 0.95;
+//    padding: 10px 30px 30px 30px;
+//    margin: 0;
+//    background-color: rgba(255, 255, 255, 0.88);
+//    border-radius: 15px;
+//    z-index: 3;
+// }
 
-.form-tourism__form {
-   margin: 0;
-}
+// .form-tourism.btn-tourism-active {
+//    display: block;
+// }
 
-.form-tourism__title {
-   margin: 0 0 15px 0;
+// .form-tourism__form {
+//    margin: 0;
+// }
 
-   h3 {
-      font-size: 28px;
-      font-weight: 600;
-      color: rgb(209, 152, 45);
-      text-align: center;
-   }
-   p {
-      text-align: center;
-      font-size: 13px;
-   }
-}
+// .form-tourism__title {
+//    margin: 0 0 15px 0;
 
-.form-tourism__name {
-   margin: 15px 0;
-   border: 1px solid $color-main-2;
-   border-radius: 6px;
-   width: 100%;
-   position: relative;
-   height: 34px;
-   display: flex;
+//    h3 {
+//       font-size: 28px;
+//       font-weight: 600;
+//       color: rgb(209, 152, 45);
+//       text-align: center;
+//    }
+//    p {
+//       text-align: center;
+//       font-size: 13px;
+//    }
+// }
 
-   input {
-      font-size: 21px;
-      width: 100%;
-      text-align: center;
-      border-radius: 6px;
-   }
-}
+// .form-tourism__name {
+//    margin: 15px 0;
+//    border: 1px solid $color-main-2;
+//    border-radius: 6px;
+//    width: 100%;
+//    position: relative;
+//    height: 34px;
+//    display: flex;
 
-.form-tourism__tel {
-   margin: 15px 0;
-   border: 1px solid $color-main-2;
-   width: 100%;
-   position: relative;
-   height: 34px;
-   display: flex;
-   border-radius: 6px;
+//    input {
+//       font-size: 21px;
+//       width: 100%;
+//       text-align: center;
+//       border-radius: 6px;
+//    }
+// }
 
-   input {
-      font-size: 21px;
-      width: 100%;
-      text-align: center;
-      border-radius: 6px;
-   }
-}
+// .form-tourism__tel {
+//    margin: 15px 0;
+//    border: 1px solid $color-main-2;
+//    width: 100%;
+//    position: relative;
+//    height: 34px;
+//    display: flex;
+//    border-radius: 6px;
 
-.form-tourism__submit {
-   height: 38px;
-   background-color: rgb(209, 152, 45);
-   display: flex;
-   border-radius: 6px;
+//    input {
+//       font-size: 21px;
+//       width: 100%;
+//       text-align: center;
+//       border-radius: 6px;
+//    }
+// }
 
-   input {
-      font-size: 20px;
-      width: 100%;
-      background-color: rgb(209, 152, 45);
-      color: whitesmoke;
-      border-radius: 10px;
-   }
-}
+// .form-tourism__submit {
+//    height: 38px;
+//    background-color: rgb(209, 152, 45);
+//    display: flex;
+//    border-radius: 6px;
+
+//    input {
+//       font-size: 20px;
+//       width: 100%;
+//       background-color: rgb(209, 152, 45);
+//       color: whitesmoke;
+//       border-radius: 10px;
+//    }
+// }
 
 // end button tourism
