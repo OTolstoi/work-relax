@@ -44,11 +44,19 @@ body {
    justify-content: space-between;
    position: relative;
    align-items: stretch;
+   @media (max-width: 320px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+   }
 }
 
 .header__logo {
    flex: 0 0 auto;
    display: flex;
+   @media (max-width: 320px) {
+      justify-content: center;
+   }
 }
 
 .logo__img {
@@ -71,6 +79,11 @@ body {
    flex-direction: column;
    justify-content: space-between;
    align-items: flex-end;
+   @media (max-width: 320px) {
+      justify-content: center;
+      align-items: center;
+      margin: 15px 0 0 0;
+   }
 }
 
 .contact__icons {
@@ -130,6 +143,9 @@ body {
          font-size: 18px;
       }
    }
+   @media (max-width: 320px) {
+      margin: 10px 0 0 0;
+   }
 }
 
 .contact__phone {
@@ -142,6 +158,9 @@ body {
       @media (max-width: $screen-md) {
          font-size: 26px;
       }
+   }
+   @media (max-width: 320px) {
+      margin: 10px 0 0 0;
    }
 }
 
@@ -424,12 +443,14 @@ body {
    flex: 0 0 25%;
    display: flex;
    flex-direction: column;
-
    align-items: center;
    padding: 10px 15px;
 
    @media (max-width: $screen-md) {
       flex: 0 0 50%;
+   }
+   @media (max-width: 320px) {
+      flex: 0 0 100%;
    }
 }
 
